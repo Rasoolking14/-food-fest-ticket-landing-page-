@@ -11,3 +11,9 @@ An interactive, component-based landing page for a fictional Cape Town food fest
 ## Overview
 
 The page reads its tiers from a single data file and renders each one through a reusable `TicketCard` component, so there is no duplicated markup. Cards are styled as festival ticket stubs — a notched perforation separates the price from the benefits. The featured tier is visually lifted with a coloured border, a slight scale, and a "Most popular" badge. A favourite heart on each card updates a live counter in the header, and visitors can sort by price or filter to featured tiers only.
+
+##installation
+git clone https://github.com/Rasoolking14/food-fest-ticket-landing-page.git
+cd food-ticket-landing-page
+npm install
+npm run dev
